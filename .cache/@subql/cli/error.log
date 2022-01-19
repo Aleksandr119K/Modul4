@@ -1,0 +1,11 @@
+2022-01-18T22:27:58.790Z Error: Unexpected argument: HelloWorld
+2022-01-18T22:27:58.790Z See more help with --help
+2022-01-18T22:27:58.790Z     at validateArgs (/usr/local/lib/node_modules/@subql/cli/node_modules/@oclif/parser/lib/validate.js:10:19)
+2022-01-18T22:27:58.790Z     at Object.validate (/usr/local/lib/node_modules/@subql/cli/node_modules/@oclif/parser/lib/validate.js:79:5)
+2022-01-18T22:27:58.790Z     at Object.parse (/usr/local/lib/node_modules/@subql/cli/node_modules/@oclif/parser/lib/index.js:28:7)
+2022-01-18T22:27:58.790Z     at Init.parse (/usr/local/lib/node_modules/@subql/cli/node_modules/@oclif/command/lib/command.js:86:41)
+2022-01-18T22:27:58.790Z     at Init.run (/usr/local/lib/node_modules/@subql/cli/lib/commands/init.js:52:38)
+2022-01-18T22:27:58.790Z     at Init._run (/usr/local/lib/node_modules/@subql/cli/node_modules/@oclif/command/lib/command.js:43:31)
+2022-01-18T22:28:07.835Z Error: Directory HelloWorld exists, try another project name
+2022-01-18T22:28:07.835Z     at Init.run (/usr/local/lib/node_modules/@subql/cli/lib/commands/init.js:62:19)
+2022-01-18T22:28:07.835Z     at Init._run (/usr/local/lib/node_modules/@subql/cli/node_modules/@oclif/command/lib/command.js:43:31)
